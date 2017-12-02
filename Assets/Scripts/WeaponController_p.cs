@@ -32,8 +32,6 @@ public class WeaponController_p : MonoBehaviour {
     private void Fire()
     {
         if (bulletCount < poolSize - 1)
-
-            Destroy(bullet, 2.0f);
         {
             bulletPool[bulletCount].transform.position = bulletSpawnPoint.position;
             bulletPool[bulletCount].SetActive(true);

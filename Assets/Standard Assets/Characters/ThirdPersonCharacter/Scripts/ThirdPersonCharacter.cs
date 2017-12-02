@@ -204,8 +204,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         {
 
         }
-        ;
-		void CheckGroundStatus()
+
+        void CheckGroundStatus()
 		{
 			RaycastHit hitInfo;
 #if UNITY_EDITOR

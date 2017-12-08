@@ -10,10 +10,10 @@ public class CameraController : MonoBehaviour
 
     private Camera cam;
 
-    private float distance = 3.0f;
+    private float distance = 2.0f;
     private float currentX = 40.0f;
     private float currentY = 30.0f;
-    private float sensivityX = 2.0f;
+    private float sensivityX = 10.0f;
     private float sensivityY = 0.0f;
 
     private void start()

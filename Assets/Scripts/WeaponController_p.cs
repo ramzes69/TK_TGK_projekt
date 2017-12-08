@@ -34,6 +34,7 @@ public class WeaponController_p : MonoBehaviour {
         if (bulletCount < poolSize - 1)
         {
             bulletPool[bulletCount].transform.position = bulletSpawnPoint.position;
+            bulletPool[bulletCount].transform.rotation = transform.rotation;
             bulletPool[bulletCount].SetActive(true);
             bulletCount++;
         }

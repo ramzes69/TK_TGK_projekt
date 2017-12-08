@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 9ce4870b297692348a8dcfd62ce9d095
-timeCreated: 1512734621
-licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
@@ -42,6 +40,7 @@ ModelImporter:
     4300004: f_ca01.000_MeshPart1
     4300006: Mesh.004
     4300008: Mesh
+    9500000: //RootNode
     10800000: Lamp
     10800002: Spot
   materials:
@@ -113,7 +112,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

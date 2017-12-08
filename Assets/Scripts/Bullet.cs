@@ -4,7 +4,7 @@ public class Bullet : MonoBehaviour {
     
     [Range(0,20)]
     public int bulletSpeed;
-    public int 
+    
 
 	void Update ()
     {

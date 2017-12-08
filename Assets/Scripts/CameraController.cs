@@ -7,6 +7,7 @@ public class CameraController : MonoBehaviour
 
     public Transform lookAt;
     public Transform camTransform;
+    
 
     private Camera cam;
 
@@ -15,6 +16,7 @@ public class CameraController : MonoBehaviour
     private float currentY = 30.0f;
     private float sensivityX = 10.0f;
     private float sensivityY = 0.0f;
+    
 
     private void start()
     {
@@ -24,10 +26,14 @@ public class CameraController : MonoBehaviour
 
     private void Update()
     {
-        currentX += Input.GetAxis("Mouse X");
-        currentY += Input.GetAxis("Mouse Y");
 
-        currentY = Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MAX);
+        if (Time.timeScale == 1)
+        {
+            currentX += Input.GetAxis("Mouse X");
+            currentY += Input.GetAxis("Mouse Y");
+
+            currentY = Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MAX);
+        }
     }
 
     private void LateUpdate()
@@ -39,4 +45,5 @@ public class CameraController : MonoBehaviour
         camTransform.LookAt(lookAt.position);
     }
 
+    
 }

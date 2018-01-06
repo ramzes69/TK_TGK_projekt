@@ -3,7 +3,7 @@ guid: d654bc47485c24c44a6efc1b043697bd
 timeCreated: 1515263759
 licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Armature
     100002: Bone
@@ -118,15 +118,68 @@ ModelImporter:
     7400020: Armature|IcosphereAction
     7400022: Armature|Plane.002Action
     7400024: Armature|PlaneAction
+    7400026: Plane.002|Icosphere|Icosphere|Cube.008Action|Icosphere|Cube.008Action
+    7400028: Plane.002|Icosphere|Icosphere|IcosphereAction|Icosphere|IcosphereAction
+    7400030: Plane.002|Icosphere|Icosphere|Plane.002Action|Icosphere|Plane.002Action
+    7400032: Plane.002|Icosphere|Icosphere|PlaneAction|Icosphere|PlaneAction
+    7400034: Plane.002|Plane.002|Plane.002|Cube.008Action|Plane.002|Cube.008Action
+    7400036: Plane.002|Plane.002|Plane.002|IcosphereAction|Plane.002|IcosphereAction
+    7400038: Plane.002|Plane.002|Plane.002|Plane.002Action|Plane.002|Plane.002Action
+    7400040: Plane.002|Plane.002|Plane.002|PlaneAction|Plane.002|PlaneAction
+    7400042: Icosphere|Icosphere|Icosphere|Cube.008Action|Icosphere|Cube.008Action
+    7400044: Icosphere|Icosphere|Icosphere|IcosphereAction|Icosphere|IcosphereAction
+    7400046: Icosphere|Icosphere|Icosphere|Plane.002Action|Icosphere|Plane.002Action
+    7400048: Icosphere|Icosphere|Icosphere|PlaneAction|Icosphere|PlaneAction
+    7400050: Icosphere|Plane.002|Plane.002|Cube.008Action|Plane.002|Cube.008Action
+    7400052: Icosphere|Plane.002|Plane.002|IcosphereAction|Plane.002|IcosphereAction
+    7400054: Icosphere|Plane.002|Plane.002|Plane.002Action|Plane.002|Plane.002Action
+    7400056: Icosphere|Plane.002|Plane.002|PlaneAction|Plane.002|PlaneAction
     9500000: //RootNode
     10800000: Point
     10800002: Point.001
     10800004: Point.002
     10800006: Point.003
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 45b7fa010daf8db44aca0ff720b414a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: e5c1ef31a43c7fe469925b42559e196e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: 45e38b162663ac14c9e28791b6a61b3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 9b96b306982f1624bba66aaad46c10dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: 680593f37a50ce24f95ce40dace07f4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.013
+    second: {fileID: 2100000, guid: 178e9f33390e7fa4c8da6f9e3e41f0d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black.001
+    second: {fileID: 2100000, guid: b7797cfd99d8bb64cb057adc320109a6, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -139,6 +192,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

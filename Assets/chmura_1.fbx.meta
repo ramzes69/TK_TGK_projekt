@@ -1,35 +1,15 @@
 fileFormatVersion: 2
-guid: 45da0fe59eb325e49babe8dcdbc148d8
-timeCreated: 1515263168
+guid: 51894b81ab0e89b48ab77771ced9737b
+timeCreated: 1515273209
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: Camera
-    100002: Cone
-    100004: Lamp
-    100006: Point
-    100008: //RootNode
-    100010: Camera.001
-    100012: Camera.002
-    100014: Lamp.001
-    400000: Camera
-    400002: Cone
-    400004: Lamp
-    400006: Point
-    400008: //RootNode
-    400010: Camera.001
-    400012: Camera.002
-    400014: Lamp.001
-    2000000: Camera
-    2000002: Camera.001
-    2000004: Camera.002
-    2300000: Cone
-    3300000: Cone
-    4300000: Cone
-    10800000: Lamp
-    10800002: Point
-    10800004: Lamp.001
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Mball.014
   materials:
     importMaterials: 1
     materialName: 0

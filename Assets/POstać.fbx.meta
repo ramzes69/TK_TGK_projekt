@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: d654bc47485c24c44a6efc1b043697bd
+timeCreated: 1515263759
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone.001
+    100006: Bone.002
+    100008: Bone.003
+    100010: Bone.004
+    100012: Bone.004_end
+    100014: Bone.005
+    100016: Bone.006
+    100018: Bone.007
+    100020: Bone.008
+    100022: Bone.009
+    100024: Bone.010
+    100026: Bone.011
+    100028: Bone.012
+    100030: Bone.013
+    100032: Bone.013_end
+    100034: Bone.014
+    100036: Bone.014_end
+    100038: Bone.015
+    100040: Bone.015_end
+    100042: Bone.016
+    100044: Bone.017
+    100046: Bone.018
+    100048: Bone.019
+    100050: Bone.019_end
+    100052: Bone.020
+    100054: Bone.021
+    100056: Bone.022
+    100058: Bone.023
+    100060: Bone.023_end
+    100062: Bone.024
+    100064: Bone.024_end
+    100066: Bone.025
+    100068: Bone.025_end
+    100070: Cylinder
+    100072: Cylinder.002
+    100074: Icosphere
+    100076: Plane.002
+    100078: Point
+    100080: Point.001
+    100082: Point.002
+    100084: Point.003
+    100086: //RootNode
+    400000: Armature
+    400002: Bone
+    400004: Bone.001
+    400006: Bone.002
+    400008: Bone.003
+    400010: Bone.004
+    400012: Bone.004_end
+    400014: Bone.005
+    400016: Bone.006
+    400018: Bone.007
+    400020: Bone.008
+    400022: Bone.009
+    400024: Bone.010
+    400026: Bone.011
+    400028: Bone.012
+    400030: Bone.013
+    400032: Bone.013_end
+    400034: Bone.014
+    400036: Bone.014_end
+    400038: Bone.015
+    400040: Bone.015_end
+    400042: Bone.016
+    400044: Bone.017
+    400046: Bone.018
+    400048: Bone.019
+    400050: Bone.019_end
+    400052: Bone.020
+    400054: Bone.021
+    400056: Bone.022
+    400058: Bone.023
+    400060: Bone.023_end
+    400062: Bone.024
+    400064: Bone.024_end
+    400066: Bone.025
+    400068: Bone.025_end
+    400070: Cylinder
+    400072: Cylinder.002
+    400074: Icosphere
+    400076: Plane.002
+    400078: Point
+    400080: Point.001
+    400082: Point.002
+    400084: Point.003
+    400086: //RootNode
+    2300000: Cylinder
+    2300002: Cylinder.002
+    2300004: Icosphere
+    2300006: Plane.002
+    3300000: Cylinder
+    3300002: Cylinder.002
+    3300004: Icosphere
+    3300006: Plane.002
+    4300000: Cylinder.002
+    4300002: Cylinder
+    4300004: Icosphere
+    4300006: Plane.002
+    7400000: Icosphere|Cube.008Action
+    7400002: Icosphere|IcosphereAction
+    7400004: Icosphere|Plane.002Action
+    7400006: Icosphere|PlaneAction
+    7400008: Plane.002|Cube.008Action
+    7400010: Plane.002|IcosphereAction
+    7400012: Plane.002|Plane.002Action
+    7400014: Plane.002|PlaneAction
+    7400016: Armature|ArmatureAction
+    7400018: Armature|Cube.008Action
+    7400020: Armature|IcosphereAction
+    7400022: Armature|Plane.002Action
+    7400024: Armature|PlaneAction
+    9500000: //RootNode
+    10800000: Point
+    10800002: Point.001
+    10800004: Point.002
+    10800006: Point.003
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

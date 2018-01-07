@@ -3,7 +3,7 @@ guid: d654bc47485c24c44a6efc1b043697bd
 timeCreated: 1515263759
 licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: Armature
     100002: Bone
@@ -97,10 +97,12 @@ ModelImporter:
     2300002: Cylinder.002
     2300004: Icosphere
     2300006: Plane.002
+    2300008: //RootNode
     3300000: Cylinder
     3300002: Cylinder.002
     3300004: Icosphere
     3300006: Plane.002
+    3300008: //RootNode
     4300000: Cylinder.002
     4300002: Cylinder
     4300004: Icosphere
@@ -139,47 +141,10 @@ ModelImporter:
     10800002: Point.001
     10800004: Point.002
     10800006: Point.003
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.004
-    second: {fileID: 2100000, guid: 45b7fa010daf8db44aca0ff720b414a8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.005
-    second: {fileID: 2100000, guid: e5c1ef31a43c7fe469925b42559e196e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.009
-    second: {fileID: 2100000, guid: 45e38b162663ac14c9e28791b6a61b3b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.010
-    second: {fileID: 2100000, guid: 9b96b306982f1624bba66aaad46c10dd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.012
-    second: {fileID: 2100000, guid: 680593f37a50ce24f95ce40dace07f4d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.013
-    second: {fileID: 2100000, guid: 178e9f33390e7fa4c8da6f9e3e41f0d4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: black.001
-    second: {fileID: 2100000, guid: b7797cfd99d8bb64cb057adc320109a6, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -192,7 +157,6 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

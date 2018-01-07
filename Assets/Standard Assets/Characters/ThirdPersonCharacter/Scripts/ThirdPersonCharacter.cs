@@ -28,11 +28,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		Vector3 m_CapsuleCenter;
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
-        public GameObject bulletPrefab;
-        public Transform bulletSpawn;
 
 
-        void Start()
+		void Start()
 		{
 			m_Animator = GetComponent<Animator>();
 			m_Rigidbody = GetComponent<Rigidbody>();
@@ -200,12 +198,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			}
 		}
 
-        private void Update()
-        {
 
-        }
-
-        void CheckGroundStatus()
+		void CheckGroundStatus()
 		{
 			RaycastHit hitInfo;
 #if UNITY_EDITOR

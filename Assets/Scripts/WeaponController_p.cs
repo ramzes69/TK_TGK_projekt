@@ -26,7 +26,7 @@ public class WeaponController_p : MonoBehaviour {
 
 	void Update ()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0)) Fire();
+        if (Input.GetKeyDown(KeyCode.Space)) Fire();
 	}
 
     private void Fire()

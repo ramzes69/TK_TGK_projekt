@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ShowOnPause
   - Player2
+  - Bullet
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,8 @@
+﻿Norbert Dering - grafika
+Oskar Grabiec - menu, programowanie 
+Marek Krzywański - nic* 
+Adam Sobkowiak - programowanie, level design 
+
+Sterowanie drugią postacią nie działa mimo, iż klawisze zostały podpisane poprawnie.	
+
+*nic nie podesłał do dodania.
